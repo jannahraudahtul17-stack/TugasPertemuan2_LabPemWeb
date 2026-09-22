@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Raudatul Janna — Portofolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=Caveat:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ================= NAVIGASI ================= -->
+  <header class="site-header">
+    <nav class="navbar container">
+      <a href="#beranda" class="logo">RJ<span class="logo-dot">.</span></a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Buka menu navigasi" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#beranda" class="nav-link">Beranda</a></li>
+        <li><a href="#tentang" class="nav-link">Tentang</a></li>
+        <li><a href="#kemampuan" class="nav-link">Kemampuan</a></li>
+        <li><a href="#proyek" class="nav-link">Proyek</a></li>
+        <li><a href="#kontak" class="nav-link nav-cta">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ================= HERO / BERANDA ================= -->
+    <section id="beranda" class="hero container">
+      <div class="hero-text">
+        <p class="hero-kicker">Halo, saya</p>
+        <h1 class="hero-title">Raudatul Janna</h1>
+        <p class="hero-role">Mahasiswa Ilmu Komputer</p>
+        <p class="hero-desc">
+          Saya masuk Ilmu Komputer dengan ekspetasi belajar Word dan Excel.
+          Realitanya?
+          Codingan dari hari pertama, dan justru disitu saya menemukan arah yang benar-benar ingni saya tekunin.
+          Selain didepan layar, saya juga suka memasak, standar saya sederhana: Kalau yang makan suka, misi selesai. Sekarang saya sedaang membangun kemampuan baru didesain, dengan satu tujuan jelas:
+          mengubah ide menjadi karya yang bernilai, dan bernilai berarti menghasilkan.
+        </p>
+        <div class="hero-actions">
+          <a href="#proyek" class="btn btn-primary">Lihat Proyek Saya</a>
+          <a href="#kontak" class="btn btn-outline">Hubungi Saya</a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-photo-wrap">
+          <svg class="hero-ring" viewBox="0 0 320 320" aria-hidden="true">
+            <circle cx="160" cy="160" r="148" />
+          </svg>
+          <img src="assets/janna.jpeg" alt="Foto profil Raudatul Janna" class="hero-photo">
+          <span class="sticky-note">open for work 💼</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= TENTANG SAYA ================= -->
+    <section id="tentang" class="section">
+      <div class="container about-grid">
+        <div class="about-copy">
+          <p class="section-eyebrow">Tentang Saya</p>
+          <h2 class="section-title">Sedikit cerita tentang perjalanan saya</h2>
+          <p>
+            Saya mulai belajar coding sejak masuk kuliah, 
+            dan terus menjalankannya sampai sekarang saya konsisten, 
+            bukan sekadar coba-coba.
+          </p>
+          <p>
+            Di luar coding, 
+            saya belajar mencari uang dari ide-ide kreatif saya sendiri.
+          </p>
+        </div>
+
+        <ul class="about-stats">
+          <li class="stat-card">
+            <span class="stat-number">100%</span>
+            <span class="stat-label">Belajar coding di kampus &amp; mandiri tiap ada tugas</span>
+          </li>
+          <li class="stat-card">
+            <span class="stat-number">5+</span>
+            <span class="stat-label">Bahasa &amp; tools yang sudah dipelajari</span>
+          </li>
+          <li class="stat-card">
+            <span class="stat-number">∞</span>
+            <span class="stat-label">Cangkir taro cheese yang sudah dihabiskan</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ================= KEMAMPUAN ================= -->
+    <section id="kemampuan" class="section section-alt">
+      <div class="container">
+        <p class="section-eyebrow">Kemampuan</p>
+        <h2 class="section-title">Alat &amp; bahasa yang biasa saya pakai</h2>
+
+        <div class="skills-grid">
+          <article class="skill-card">
+            <h3>Front-End</h3>
+            <div class="tag-list">
+              <span class="tag">HTML5</span>
+              <span class="tag">CSS3</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">Flexbox</span>
+              <span class="tag">CSS Grid</span>
+              <span class="tag">Media Query</span>
+              <span class="tag">Animasi</span>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <h3>Framework &amp; Library</h3>
+            <div class="tag-list">
+              <span class="tag">React</span>
+              <span class="tag">Tailwind CSS</span>
+              <span class="tag">Vue (dasar)</span>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <h3>Perkakas</h3>
+            <div class="tag-list">
+              <span class="tag">Git &amp; GitHub</span>
+              <span class="tag">npm</span>
+              <span class="tag">VS Code</span>
+              <span class="tag">Canva</span>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <h3>Sedang Dipelajari</h3>
+            <div class="tag-list">
+              <span class="tag tag-learning">Node.js</span>
+              <span class="tag tag-learning">TypeScript</span>
+              <span class="tag tag-learning">Aksesibilitas Web</span>
+              <span class="tag tag-learning">Dll</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PROYEK ================= -->
+    <section id="proyek" class="section">
+      <div class="container">
+        <p class="section-eyebrow">Proyek</p>
+        <h2 class="section-title">Beberapa hal yang sudah saya kerjakan</h2>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <img src="assets/proyeknewtpad.png" alt="Tampilan aplikasi Newtpad" class="project-thumb">
+            <div class="project-body">
+              <h3>Newtpad</h3>
+              <p>Perangkat lunak pencatatan digital bisnis antar muka grafis. Berfungsi agar mempermudah pengguna dalam membuat, menyimpan, mengorganisasi, dan mengelola catatan tugas maupun harian secara terstruktur dan praktis.</p>
+              <div class="tag-list">
+                <span class="tag">Qt</span>
+                <span class="tag">C++</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="text-link">Lihat Demo →</a>
+                <a href="#" class="text-link">Kode Sumber</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="assets/proyekneovectoreescape.png" alt="Tampilan game Neovector Escape" class="project-thumb">
+            <div class="project-body">
+              <h3>NEOVECTOR ESCAPE</h3>
+              <p>Game ini merupakan sebuah permainan kejar-kejaran (chase game) 2D berbasis Python dan Pygame yang menerapkan konsep-konsep vektor Aljabar Linear untuk menggerakkan musuh dan mendeteksi tabrakan.</p>
+              <div class="tag-list">
+                <span class="tag">Python</span>
+                <span class="tag">Pygame</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="text-link">Lihat Demo →</a>
+                <a href="#" class="text-link">Kode Sumber</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="assets/proyekplat.png" alt="Tampilan aplikasi Sistem Ganjil-Genap Kendaraan" class="project-thumb">
+            <div class="project-body">
+              <h3>Penerapan Teori Bilangan dan Operasi Modulo pada Sistem Ganjil-Genap Kendaraan</h3>
+              <p>Aplikasi Sistem Ganjil-Genap Kendaraan adalah sebuah perangkat lunak fungsional yang dirancang untuk mengotomatiskan proses pemeriksaan kelayakan melintas kendaraan di suatu ruas jalan tertentu. Keputusan ini diambil secara real-time berdasarkan digit terakhir nomor pelat kendaraan dan hari operasional yang sedang berlaku.</p>
+              <div class="tag-list">
+                <span class="tag">C++</span>
+                <span class="tag">QML</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="text-link">Lihat Demo →</a>
+                <a href="#" class="text-link">Kode Sumber</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= KONTAK ================= -->
+    <section id="kontak" class="section section-alt">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <p class="section-eyebrow">Kontak</p>
+          <h2 class="section-title">Yuk, ngobrol soal proyek</h2>
+          <p>
+            Saya masih dalam proses belajar, tapi selalu terbuka untuk kolaborasi, 
+            tugas kelompok, atau sekadar bertukar ide seputar coding dan desain. 
+            Yuk, mulai obrolan lewat form di samping.
+          </p>
+
+          <ul class="contact-channels">
+            <li><span class="channel-label">Email</span> jannahraudahtul17@gmail.com</li>
+            <li><span class="channel-label">GitHub</span> jannahraudahtul17-stack</li>
+            <li><span class="channel-label">Instagram</span> rdtljnna17</li>
+            <li><span class="channel-label">WhatsApp</span> 081261188967</li>
+          </ul>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <label for="name">Nama</label>
+          <input type="text" id="name" name="name" placeholder="Nama lengkap kamu" required>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="alamat@email.com" required>
+
+          <label for="message">Pesan</label>
+          <textarea id="message" name="message" rows="5" placeholder="Ceritakan proyek atau idemu..." required></textarea>
+
+          <button type="submit" class="btn btn-primary btn-full">Kirim ke WhatsApp 💬</button>
+          <p class="form-note" id="formNote" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="#beranda" class="logo logo-footer">RJ<span class="logo-dot">.</span></a>
+        <p>Dibuat dengan HTML, CSS, dan sedikit Taro Cheese.</p>
+      </div>
+
+      <ul class="footer-links">
+        <li><a href="#tentang">Tentang</a></li>
+        <li><a href="#kemampuan">Kemampuan</a></li>
+        <li><a href="#proyek">Proyek</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+
+      <p class="footer-copy">© <span id="year"></span> Raudatul Janna. Seluruh hak cipta dilindungi.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
